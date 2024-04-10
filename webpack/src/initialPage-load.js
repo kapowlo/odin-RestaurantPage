@@ -1,8 +1,10 @@
 export function pageLoad(){
     const myContentDiv = document.querySelector("#content")
 
+    removeChildElements(myContentDiv);
+
     const myH1header = document.createElement("h1");
-    myH1header.textContent="Welcome to Kapowlo's Restaurant!";
+    myH1header.textContent="Hi,Welcome to Kapowlo's Restaurant!";
     myH1header.classList.add("big-text")
     myContentDiv.appendChild(myH1header);
 
@@ -22,4 +24,8 @@ export function pageLoad(){
     secondPara.textContent="Please consider eating at Kapowlo's restaurant and bring as many people as you want!";
 
     myContentDiv.append(firstPara,secondPara);
+}
+
+function removeChildElements(myNode){
+    myNode.textContent="";
 }
