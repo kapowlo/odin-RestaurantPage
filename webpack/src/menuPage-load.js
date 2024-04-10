@@ -1,4 +1,4 @@
-export function menuLoad(){
+export function menuPage(){
     const myContentDiv = document.querySelector("#content");
     const menuHeader =document.createElement("h1");
 

@@ -1,4 +1,4 @@
-export function pageLoad(){
+export function initialPage(){
     const myContentDiv = document.querySelector("#content")
 
     removeChildElements(myContentDiv);
