@@ -1,0 +1,14 @@
+body {
+  background-image: linear-gradient(to right, #5a3f37, #2c7744);
+  text-align: center;
+}
+
+.big-text {
+  color: whitesmoke;
+  font-size: 1.25rem;
+}
+
+.small-text {
+  color: whitesmoke;
+  font-size: 1rem;
+}
