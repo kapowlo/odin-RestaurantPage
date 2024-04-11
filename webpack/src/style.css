@@ -45,3 +45,12 @@ img {
   margin-top: 0.65rem;
   margin-bottom: 0.65rem;
 }
+
+.square {
+  height: 700px;
+  width: 700px;
+  margin: 0.8rem auto;
+  border: 3px dashed black;
+  background-image: linear-gradient(to right, #5a3f37, #2c7744);
+  /* color: whitesmoke; */
+}
